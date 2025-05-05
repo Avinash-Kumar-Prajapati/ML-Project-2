@@ -50,7 +50,7 @@ The following preprocessing steps were applied:
   - Converted 'Ram', 'Weight' to numeric values.
   - Extracted resolution width × height and type from 'ScreenResolution'.
   - Extracted storage volume and storage type from 'Memory'
-- **Encoding**: One-hot encoding for categorical variables.
+- **Encoding**: One-hot encoding and Target Encoding for categorical variables.
 - **Scaling**: Standard Scaling for both categorical and numerical variables.
 
 ## Model Training :
@@ -61,4 +61,4 @@ The following preprocessing steps were applied:
 Flask app is created with User Interface to get inputs from the user and predict the Laptop Price.
 
 ### Snapshot of the App:
-![alt text](image.png)
+![alt text](app-image.png)
