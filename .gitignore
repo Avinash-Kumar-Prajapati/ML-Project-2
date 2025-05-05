@@ -172,3 +172,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+#Custom folders and files
+artifacts/
+catboost_info/
+logs/
+*.egg-info/
